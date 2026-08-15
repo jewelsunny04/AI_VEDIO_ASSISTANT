@@ -1,5 +1,32 @@
+# ── Environment & secrets ──────────────────────────────────
 .env
-__pychache__/
 .venv/
-test.py 
+venv/
+env/
+
+# ── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+
+# ── Generated data (regenerated on each run) ───────────────
 downloads/
+vector_db/
+test.py
+# ── OS / editor cruft ───────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ── Logs ────────────────────────────────────────────────────
+*.log
+
+# ── Jupyter (if you ever use notebooks here) ───────────────
+.ipynb_checkpoints/
